@@ -1071,7 +1071,7 @@
 
 	body {
 		background: #f2f5f3;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'PT Serif', serif;
 		font-weight: 400;
 		color: #6b7770;
 		font-size: 11.5pt;
@@ -1090,7 +1090,7 @@
 		}
 
 	input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'PT Serif', serif;
 		font-weight: 400;
 		color: #6b7770;
 		font-size: 11.5pt;
@@ -1098,9 +1098,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: 'Open Sans Condensed', sans-serif;
-		font-weight: 700;
-		text-transform: uppercase;
+		font-family: 'PT Serif', serif;
+		font-weight: 400;
 		color: #6b7770;
 	}
 
@@ -1639,18 +1638,16 @@
 /* Wrappers */
 
 	#banner-wrapper {
-		position: absolute;
-		background-image: url("../../images/banner.jpg");
+		position: relative;
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left, top left, center center;
-		background-repeat: no-repeat;
-		width: 100%;
-  		height: 100%;
+		background-repeat: repeat, repeat, no-repeat;
+		background-size: auto, auto, cover;
 		z-index: 1;
 	}
 
 	#main-wrapper {
 		background: #fff;
-		border-top: solid 5px #f8f8f8;
 		border-bottom: solid 5px #c1cac5;
 	}
 
@@ -1658,8 +1655,6 @@
 
 	#banner {
 		position: relative;
-		background-color: rgba(21, 28, 23, 0.85);
-		background-image: url("images/overlay.png"), url("images/highlight.png");
 		background-position: top left, center center;
 		background-size: auto, 100% 250%;
 		background-repeat: repeat, no-repeat;
@@ -1944,8 +1939,8 @@
 				height: 3.25em;
 				line-height: 3.25em;
 				text-align: center;
-				font-family: "Adobe Garamond Pro", sans-serif;
-				font-weight: 700;
+				font-family: 'PT Serif', serif;
+				font-weight: 400;
 				text-transform: uppercase;
 				cursor: default;
 			}
@@ -2012,8 +2007,8 @@
 				border-radius: 6px;
 				line-height: 2.75em;
 				text-align: center;
-				font-family: "Adobe Garamond Pro", sans-serif;
-				font-weight: 700;
+				font-family: 'PT Serif', serif;
+				font-weight: 400;
 				text-transform: uppercase;
 				padding: 1em 0;
 				text-align: left;
@@ -2500,7 +2495,7 @@
 				#titleBar .title {
 					display: block;
 					position: relative;
-					font-family: 'Open Sans Condensed', sans-serif;
+					font-family: 'PT Serif', serif;
 					font-weight: 700;
 					text-transform: uppercase;
 					font-size: 1.25em;
@@ -2572,7 +2567,7 @@
 				background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% 100%;
-				font-family: 'Open Sans Condensed', sans-serif;
+				font-family: 'PT Serif', serif;
 				font-weight: 700;
 				text-transform: uppercase;
 				font-size: 1.25em;
