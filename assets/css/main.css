@@ -9,6 +9,83 @@
 
 /* Reset */
 
+span.Title {
+				font-family : 'Open Sans', sans-serif;
+				font-weight : 300;
+				letter-spacing: 12px;
+				font-style : normal;
+				padding-bottom: 15px;
+				font-size : 2.5em;
+				color : #045292;
+			}
+
+			span.Header-1 {
+				font-family : "Open Sans", sans-serif;
+				font-weight : 700;
+				font-style : normal;
+				font-size : 1em;
+				text-transform : uppercase;
+				padding-top: 10px;
+				color : #045292;
+			}
+			span.Body {
+				font-family : 'Open Sans', sans-serif;
+				font-weight : 300;
+				font-style : normal;
+				font-size : 1em;
+			}
+			span.Body-bold {
+				font-family : 'Open Sans', sans-serif;
+				font-weight : 700;
+				font-style : normal;
+				font-size : 1em;
+			}
+			span.char-style-override-1 {
+				color : #045292;
+				text-transform : uppercase;
+			}
+			span.char-style-override-2 {
+				font-style : normal;
+				font-weight : normal;
+			}
+			p.Basic-Paragraph {
+				font-family : "Minion Pro", serif;
+				font-weight : normal;
+				font-style : normal;
+				font-size : 1em;
+				text-decoration : none;
+				font-variant : normal;
+				line-height : 1.5;
+				text-align : center;
+				color : #000000;
+				text-indent : 0px;
+				margin : 0px;
+			}
+			table.Basic-Table {
+				border-collapse : collapse;
+				border-width : 1px;
+				border-style : solid;
+				border-bottom-color: #d3d3d3;
+				border-left-color: #FFFFFF;
+				border-right-color: #FFFFFF;
+				border-top-color: #FFFFFF;
+				margin-top : 4px;
+				margin-bottom : -4px;
+			}
+			td.cell-style-override-1 {
+				padding-bottom : 5px;
+				padding-left : 3px;
+				padding-right : 3px;
+				padding-top : 5px;
+			}
+			td.cell-style-override-2 {
+				background-color : #ccb266;
+				padding-bottom : 3px;
+				padding-left : 3px;
+				padding-right : 3px;
+				padding-top : 3px;
+			}
+
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
@@ -1071,7 +1148,7 @@
 
 	body {
 		background: #f2f5f3;
-		font-family: 'PT Serif', serif;
+		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		color: #6b7770;
 		font-size: 11.5pt;
@@ -1090,7 +1167,7 @@
 		}
 
 	input, textarea, select {
-		font-family: 'PT Serif', serif;
+		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		color: #6b7770;
 		font-size: 11.5pt;
@@ -1098,7 +1175,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-family: 'PT Serif', serif;
+		font-family: 'Open Sans', sans-serif;
 		font-weight: 400;
 		color: #6b7770;
 	}
@@ -1155,7 +1232,7 @@
 
 	hr {
 		border: 0;
-		border-top: solid 2px #E7EAE8;
+		border-top: solid 6px #E7EAE8;
 		margin: 0 0 3em 0;
 	}
 
@@ -1639,7 +1716,7 @@
 
 	#banner-wrapper {
 		position: relative;
-		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.png");
 		background-position: top left, top left, center center;
 		background-repeat: repeat, repeat, no-repeat;
 		background-size: auto, auto, cover;
@@ -1648,6 +1725,7 @@
 
 	#main-wrapper {
 		background: #fff;
+		border-top: solid 5px #f8f8f8;
 		border-bottom: solid 5px #c1cac5;
 	}
 
@@ -1939,7 +2017,7 @@
 				height: 3.25em;
 				line-height: 3.25em;
 				text-align: center;
-				font-family: 'PT Serif', serif;
+				font-family: 'Open Sans', sans-serif;
 				font-weight: 400;
 				text-transform: uppercase;
 				cursor: default;
@@ -1997,7 +2075,7 @@
 					}
 
 					#nav li.current a {
-						background: #23408F;
+						background: #045292;
 						color: #fff;
 					}
 
@@ -2007,7 +2085,7 @@
 				border-radius: 6px;
 				line-height: 2.75em;
 				text-align: center;
-				font-family: 'PT Serif', serif;
+				font-family: 'Open Sans', sans-serif;
 				font-weight: 400;
 				text-transform: uppercase;
 				padding: 1em 0;
@@ -2525,7 +2603,7 @@
 						position: absolute;
 						left: 0;
 						top: 0;
-						background: #b1ddab;
+						background: #045292;
 						width: 44px;
 						height: 44px;
 						content: '\f0c9';
@@ -2536,7 +2614,7 @@
 					}
 
 					#titleBar .toggle:active:before {
-						background-color: #a1cd9b;
+						background-color: #045292;
 					}
 
 			#navPanel {
@@ -2567,7 +2645,7 @@
 				background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% 100%;
-				font-family: 'PT Serif', serif;
+				font-family: 'Open Sans', sans-serif;
 				font-weight: 700;
 				text-transform: uppercase;
 				font-size: 1.25em;
